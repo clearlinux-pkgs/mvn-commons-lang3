@@ -4,7 +4,7 @@
 #
 Name     : mvn-commons-lang3
 Version  : 3.4
-Release  : 1
+Release  : 2
 URL      : https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
 Source0  : https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
 Source1  : https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom
