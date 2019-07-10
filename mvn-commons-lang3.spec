@@ -4,7 +4,7 @@
 #
 Name     : mvn-commons-lang3
 Version  : 3.4
-Release  : 4
+Release  : 5
 URL      : https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
 Source0  : https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
 Source1  : https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar
@@ -13,8 +13,10 @@ Source3  : https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.2.1
 Source4  : https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1.pom
 Source5  : https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom
 Source6  : https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.pom
-Source7  : https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar
-Source8  : https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.pom
+Source7  : https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar
+Source8  : https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.pom
+Source9  : https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar
+Source10  : https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -57,11 +59,17 @@ cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/comm
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-lang3/3.5
 cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-lang3/3.5
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-lang3/3.8.1
-cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-lang3/3.8.1
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-lang3/3.7
+cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-lang3/3.7
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-lang3/3.7
+cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-lang3/3.7
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-lang3/3.8.1
-cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-lang3/3.8.1
+cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-lang3/3.8.1
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-lang3/3.8.1
+cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-lang3/3.8.1
 
 
 %files
@@ -76,5 +84,7 @@ cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/comm
 /usr/share/java/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
 /usr/share/java/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom
 /usr/share/java/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.pom
+/usr/share/java/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar
+/usr/share/java/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.pom
 /usr/share/java/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar
 /usr/share/java/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.pom
